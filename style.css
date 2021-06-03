@@ -8,10 +8,9 @@
   font: normal 20px "Roboto", sans-serif;
 }
 
-body {
-  background-color: snow;
-}
 nav {
+  position: sticky;
+  top: 0;
   background-color: rgb(32, 178, 154);
   padding: 2vh 0;
   z-index: 1;
@@ -37,6 +36,19 @@ nav {
   border: none;
   cursor: pointer;
   z-index: 1;
+}
+main {
+  padding: 2rem;
+  background-image: url(https://wallpaperaccess.com/full/99815.png);
+}
+main section {
+  padding: 1vh;
+  display: flex;
+}
+
+.imagex {
+  object-fit: contain;
+  margin: 10px;
 }
 
 @media only screen and (max-width: 768px) {

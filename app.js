@@ -7,7 +7,7 @@ ham.addEventListener("click", () => {
 
   if (Sidebar.classList.contains("active")) {
     ham.classList.replace("fa-bars", "fa-times");
-    content.style.opacity = "20%";
+    content.style.opacity = "60%";
   } else {
     ham.classList.replace("fa-times", "fa-bars");
     content.style.opacity = "100%";
